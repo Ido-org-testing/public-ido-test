@@ -97,7 +97,7 @@ jobs:
 
   deploy-prod:
     docker:
-      - image: ubuntu:14.04
+      - image: ubuntu:latest
         auth:
           username: mydockerhub-user
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
